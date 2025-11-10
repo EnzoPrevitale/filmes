@@ -1,0 +1,32 @@
+@use '../../variables.scss' as *;
+
+header {
+    display: flex;
+    background-color: $red;
+    justify-content: space-around;
+    height: 80px;
+    gap: 60%;
+
+    .logo {
+        font-family: $megadeth;
+        font-size: 3rem;
+        align-self: center;
+    }
+
+    nav {
+        font-size: 2rem;
+        align-self: center;
+        display: flex;
+        gap: 20px;
+
+        a {
+            font-family: $montserrat;
+            text-decoration: none;
+        }
+
+        .icon {
+            font-size: 3rem;
+            margin-top: 50%;
+        }
+    }
+}

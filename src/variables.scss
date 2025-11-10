@@ -1,0 +1,23 @@
+@font-face {
+    font-family: actor;
+    src: url('./assets/fonts/Actor-Regular.ttf');
+}
+
+@font-face {
+    font-family: megadeth;
+    src: url('./assets/fonts/Megadeth.ttf');
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url('./assets/fonts/Montserrat-VariableFont_wght.ttf');
+}
+
+// Fontes
+$actor: actor;
+$megadeth: megadeth;
+$montserrat: montserrat;
+
+// Cores
+$dark-red: #c20000;
+$red: #ff0005;
