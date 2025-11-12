@@ -22,11 +22,18 @@ header {
         a {
             font-family: $montserrat;
             text-decoration: none;
+            transition: color 5s ease-in;
+            align-self: center;
+
+            :hover {
+                color: $dark-red;
+            }
         }
 
         .icon {
             font-size: 3rem;
             margin-top: 50%;
+            margin-bottom: 15px;
         }
     }
 }
